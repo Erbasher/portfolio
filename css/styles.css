@@ -20,7 +20,7 @@ h2 {
 header {
     display: flex;
     flex-wrap: wrap;
-    background-color: #323232;
+    background-color: #4A274F;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -31,11 +31,12 @@ header {
 }
 
 .header1 {
-    flex: 1 1 auto;    
+    align-content: center;   
 }
 
 .header2 {
     align-content: center;
+    
     
 }
 
@@ -113,31 +114,6 @@ section {
     padding-bottom: 2rem;
 }
 
-article {
-    flex: 1;
-    padding: 1rem;
-    margin: 0.75rem;
-}
-
-footer {
-    display: block;
-    background-color: #323232;
-    width: 100%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer div {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-footer img {
-    width: 8rem;
-    height: auto;
-}
-
 .section1 {
     display: flex;
     position: relative;
@@ -176,22 +152,68 @@ footer img {
 .section2 article {
     background-color: #D0604C;
     border-radius: 15px;
+    text-align: center;
+    padding-bottom: 1rem;
 }
 
 article {
     flex: 1;
     border-radius: 1rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin: 1rem;
 }
 
 article p + div {
     display: flex;
     flex: 1;
-    gap: 2rem 1 rem;
+    gap: 2rem 1rem;
+    padding-bottom: 2rem;
 }
 
 article a:link {
     color: #CDF0EA;
     font-size: 1.2rem;
     text-decoration: none;
+    
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4A274F;
+    color: rgb(209, 107, 12);
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;;
+}
+
+footer div {
+    display: flex;
+    padding: 2rem 2rem;
+    padding-bottom: 0.5rem;
+}
+
+footer img {
+    display: flex;
+    width: 8rem;
+    height: 2rem;
+    padding-top: 1.5rem;
+}
+
+.footer1 {
+    display: flex;
+    align-content: center;
+    float: left;
+    padding-left: 20rem;
+}
+
+.footer2 {
+    display: flex;
+    font-size: 1.5rem;
+    float: right;
+    padding-top: 2rem;
 }
