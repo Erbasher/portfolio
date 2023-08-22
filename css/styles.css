@@ -39,22 +39,20 @@ header {
     
 }
 
+.header img {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    float: left;
+}
 
 .headertext {
     display: flex;
     position: relative;
     color: rgb(209, 107, 12);
     font-size: 3rem;
-    padding-left: 2em;
-    float: left;
-    padding-top: 2rem;
-    
-}
-
-.header img {
-    padding-top: 2rem;
-    padding-left: 2rem;
-    float: left;
+    padding-right: 22rem;
+    float: right;
+    padding-top: 4rem;
 }
 
 .navbar {
