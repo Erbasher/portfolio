@@ -1,2 +1,1 @@
-# portfolio
-Portfolio work about HTML and CSS in depth
+- Created a HTML base structure
