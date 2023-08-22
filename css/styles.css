@@ -1,4 +1,5 @@
 body {
+    display: grid;
     background-color: #FFE6E6;
     font-family: 'Markazi Text', serif;
     margin-top: 3rem;
@@ -9,8 +10,187 @@ body {
 
 h1 {
     font-size: 3rem;
+    
 }
 
 h2 {
     font-size: 2rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #323232;
+    width: 100%;
+    height: 8rem;
+    overflow: hidden;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;;
+}
+
+.header1 {
+    flex: 1 1 auto;    
+}
+
+.header2 {
+    
+    
+}
+
+
+.headertext {
+    display: flex;
+    position: relative;
+    color: rgb(209, 107, 12);
+    font-size: 2rem;
+    padding-right: 2rem;
+    float: right;
+    padding-top: 2rem;
+    
+}
+
+.header img {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    float: left;
+}
+
+.navbar {
+    margin:0 auto;
+    height: 100%;
+}
+
+.navbar ul {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.navbar li a {
+    font-family: 'Markazi Text', serif;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+.navbar li a:link {
+    color: #D0604C;
+}
+
+.navbar li a:hover {
+    color: #FFFFFF;
+    background-color: #7F8487;
+
+}
+
+.navbar li a:active {
+    color: #D0604C;
+    background-color: #7F8487;
+}
+
+.navbar li a:visited {
+    color: #D0604C;
+}
+
+main {
+    padding-top: 4rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    padding: 1rem;
+    margin: 0.75rem;
+}
+
+footer {
+    display: block;
+    background-color: #323232;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer div {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+footer img {
+    width: 8rem;
+    height: auto;
+}
+
+.section1 {
+    display: flex;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1 article h1, section1 article p {
+    position: relative;
+    color: black;
+    line-height: 0.9;
+    text-align: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.section1 article h1 {
+    margin-bottom: 0;
+    text-shadow: 2px 2px 2px white;
+}
+
+.section1 article p {
+    font-size: 23px;
+    text-shadow: 2px 2px 8px white;
+}
+
+.section2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section2 article {
+    background-color: #D0604C;
+    border-radius: 15px;
+}
+
+article {
+    flex: 1;
+    border-radius: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+article p + div {
+    display: flex;
+    flex: 1;
+    gap: 2rem 1 rem;
+}
+
+article a:link {
+    color: #CDF0EA;
+    font-size: 1.2rem;
+    text-decoration: none;
 }
